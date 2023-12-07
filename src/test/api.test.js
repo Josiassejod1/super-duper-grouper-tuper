@@ -1,3 +1,0 @@
-describe("sendMessage", () => {});
-
-describe("fetchQuote", () => {});

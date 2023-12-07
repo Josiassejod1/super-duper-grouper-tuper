@@ -5,7 +5,7 @@ export function sendMessage(number, message) {
   if (sandbox === "true") {
     key += "_test";
   }
-  fetch("https://textbelt.com/text", {
+  return fetch("https://textbelt.com/text", {
     method: "post",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
@@ -17,17 +17,9 @@ export function sendMessage(number, message) {
     .then((response) => {
       return response.json();
     })
-    .then((data) => {
-      if (data.success) {
-        return true;
-      } else {
-        console.error("Error sending message", data);
-        return false;
-      }
-    })
     .catch((error) => {
       console.error("Error getting user by ID:", error);
-      return false;
+      return { success: false };
     });
 }
 
