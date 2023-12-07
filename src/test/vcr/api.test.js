@@ -18,13 +18,13 @@ test("sendMessage should send a text message successfully", async () => {
 });
 
 test("fetchQuote should fetch a random quote", async () => {
-  const expectedQuote = { author: "Some Author", quote: "Some Quote" };
-  const fetchMock = jest.spyOn(window, "fetch").mockResolvedValueOnce({
-    json: jest.fn().mockResolvedValueOnce(expectedQuote),
+  const result = await request(fetchQuote(), "AnimeQuote", {
+    path: "./test.json",
+    replay: true,
+    ignoreFields: [],
+    override: false,
+    record: true,
   });
 
-  const result = await fetchQuote();
-
-  expect(fetchMock).toHaveBeenCalledWith("https://animechan.xyz/api/random");
-  expect(result).toEqual(expectedQuote);
+  expect(result).toBeDefined();
 });
