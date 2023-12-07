@@ -1,7 +1,6 @@
 export function sendMessage(number, message) {
-  var key = process.env.TEXT_BLUE_API;
-  console.log(process.env);
-  var sandbox = process.env.SANDBOX_MODE;
+  var key = process.env.REACT_APP_TEXT_BLUE_API;
+  var sandbox = process.env.REACT_APP_SANDBOX_MODE;
 
   if (sandbox === "true") {
     key += "_test";
@@ -12,7 +11,7 @@ export function sendMessage(number, message) {
     body: JSON.stringify({
       phone: number,
       message: message,
-      key: "testbelt",
+      key: key,
     }),
   })
     .then((response) => {
