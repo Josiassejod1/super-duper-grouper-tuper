@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.sms-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sms-chart > thead {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.settings-panel {
+  display: grid;
+  flex-direction: row;
+}
+
+.settings {
+  flex: auto;
+  display: flex;
+  justify-content: end;
+}
