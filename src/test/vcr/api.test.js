@@ -18,11 +18,11 @@ test("sendMessage should send a text message successfully", async () => {
 });
 
 test("fetchQuote should fetch a random quote", async () => {
-  const result = await request(fetchQuote(), "AnimeQuote", {
+  const result = await request(fetchQuote(), "fetchQuote", {
     path: "./test.json",
     replay: true,
     ignoreFields: [],
-    override: false,
+    override: true,
     record: true,
   });
 

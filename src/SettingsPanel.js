@@ -77,9 +77,7 @@ export function SettingsPanel({ users = [], settings, deleteUserBy }) {
                           // If some uses curly braces replace with name
                           const template = message.replace(/{([^{}]+)}/g, name);
                           const result = sendMessage(_id, template);
-                          if (result.sucess) {
-                            setSuccess(true);
-                          }
+                          setSuccess(result);
                         }}
                         disabled={!messagePresent}
                       >

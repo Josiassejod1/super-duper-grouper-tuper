@@ -21,7 +21,7 @@ export async function request(
     record: true,
     replay: true,
     override: true,
-    path: "./response.json",
+    path: "./test.json",
     ignoreFields: [],
   },
 ) {
@@ -76,6 +76,7 @@ function saveDataToFile(file, name, data) {
   }
   const filePath = path.join(directoryPath, file);
   const currentData = JSON.stringify({ result: data }, null, 2);
+  console.log(currentData);
   fs.writeFileSync(filePath, currentData);
 }
 
