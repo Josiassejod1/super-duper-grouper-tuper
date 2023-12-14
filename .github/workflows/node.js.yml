@@ -26,8 +26,8 @@ jobs:
     - name: Run Polly.js to update recordings
       run: npm test
 
-    - name: Check for changes
+    - name: Check for changes in .har files
       run: |
         git config --global user.email "actions@github.com"
         git config --global user.name "GitHub Actions"
-        git diff --exit-code || (git add . && git commit -m "Update Polly recordings" && git push)
+        git diff --exit-code --name-only -- '*.har' || (git add '*.har' && git commit -m "Update Polly recordings" && git push)
