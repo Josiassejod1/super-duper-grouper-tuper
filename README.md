@@ -46,7 +46,7 @@ To get started, clone the repository and install the necessary dependencies:
 git clone https://github.com/yourusername/test-smarter-polly-js.git
 cd pollyjs-book
 npm install
-
+```
 ## Examples by Chapter
 
 - **Chapter 1: Getting Our Feet Wet**  
