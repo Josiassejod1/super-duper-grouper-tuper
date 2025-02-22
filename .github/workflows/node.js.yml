@@ -21,7 +21,7 @@ jobs:
       with:
         node-version: 16  # Choose the appropriate Node.js version
     - name: Install dependencies
-      run: npm insta;;
+      run: npm install
 
     - name: Run Polly.js to update recordings
       run: npm test
