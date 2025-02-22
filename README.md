@@ -7,7 +7,7 @@ Welcome to the repository for **Test Smarter**, a comprehensive guide designed t
 You can either fork a copy of this repo, or take advantage of the Code Sandbox Environment that I have setup !
 
 [![Edit Josiassejod1/super-duper-grouper-tuper/debugging](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/Josiassejod1/super-duper-grouper-tuper/debugging?embed=1&file=%2Fsrc%2FApp.js)
-[![Buy on Gumroad](https://via.placeholder.com/200x50.png?text=Share+on+Gumroad)](https://dalvindigital.gumroad.com/l/testsmarter)
+[![Buy on Gumroad](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAflBMVEVHcExGJ0BbM1IAAAAAAAAIBAcAAAAAAABtPWMAAAAAAAAAAAAAAAAgEhxLKkUAAABhNlgKBQkqFyb/kOgAAAD/kev/lvL/lO//k+2uYp/if831it/Kcrh+R3OkXZbpg9SNT4DWeMLththLKkT8juW4aKgoFiSaV4w4IDMYDRae/WAqAAAAE3RSTlMA6fwkOJx+Ef1pV9bkrMev6MLdjn6BkgAAAbJJREFUOI1tU+l6gyAQRKNGTb4cDcsih3ds3/8JywIa03T+iOzsPTC2ISsut7K8XfL6yP5BlTTdjARt7PXw15wlBiU8AiTqPn+3F/1DPnYAHL72efJGPP5A6vTFqBrcXGHNA3OyMrI++kuhleoQAwfGeyQkq3MzcYfFqhAQn1VIYHx90P3wFW0IiZPvNvF80N40TQt9Gu8jzYkqiD+pu0+1EPBNDO3rmJfajaCjsxzI/UFHUVIS74XWhbjM/kh+sZjBWhvDPvmB3TDU4wg+lJQoHEJjA69Y6QnCtbAA+TQB2hMUv+4IFEGsnSrwrfPTmoKaGMGNrxvNi6D4mV1COa27pJEDiP5FMI6Qh2wd3Q4CABWfVgK2LkVt/EykJUY/KBeq3QipK/Jow2r0sm3iGQkwcl4wdtVRIWWwf4smEmh6GWOHHqPMVGttOyKMxpg57O/sBTdEFYHEoNygK3QhgyK+9KqzPbCJARg7pvMnQ1CpWRTdMenw3QzkHxN4xv2JsDf7lor906kTM7sKCYijn3bF3lEt9jmoTpmWFsdPH8/Tqe+86fqefZoJh7rI87zIdu/yFy5rQgXqNu2KAAAAAElFTkSuQmCC)](https://dalvindigital.gumroad.com/l/testsmarter)
 
 
 
