@@ -7,6 +7,8 @@ Welcome to the repository for **Test Smarter**, a comprehensive guide designed t
 You can either fork a copy of this repo, or take advantage of the Code Sandbox Environment that I have setup !
 
 [![Edit Josiassejod1/super-duper-grouper-tuper/debugging](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/Josiassejod1/super-duper-grouper-tuper/debugging?embed=1&file=%2Fsrc%2FApp.js)
+[![Buy on Gumroad](https://via.placeholder.com/200x50.png?text=Share+on+Gumroad)](https://dalvindigital.gumroad.com/l/testsmarter)
+
 
 
 ## Table of Contents
